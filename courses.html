@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses - MyCourses</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">MyCourses</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html" class="active">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <a href="register.html" class="btn">Register</a>
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        </nav>
+    </header>
+
+    <!-- Courses Section -->
+    <section class="courses">
+        <h1>Our Courses</h1>
+        <div class="course-grid">
+            <div class="course-card">
+                <i class="fas fa-code fa-3x course-icon"></i>
+                <h2>Web Development</h2>
+                <p>Learn HTML, CSS, JavaScript, and React step by step to build real websites.</p>
+                <p class="price">₹4999</p>
+                <a href="register.html" class="btn">Buy Now</a>
+            </div>
+            <div class="course-card">
+                <i class="fas fa-mobile-alt fa-3x course-icon"></i>
+                <h2>App Development</h2>
+                <p>Build Android apps using Java & XML, learn UI/UX design, and publish to Play Store.</p>
+                <p class="price">₹5999</p>
+                <a href="register.html" class="btn">Buy Now</a>
+            </div>
+            <div class="course-card">
+                <i class="fas fa-database fa-3x course-icon"></i>
+                <h2>Data Science</h2>
+                <p>Master Python, Machine Learning, and AI with real-world projects and datasets.</p>
+                <p class="price">₹6999</p>
+                <a href="register.html" class="btn">Buy Now</a>
+            </div>
+            <div class="course-card">
+                <i class="fas fa-gamepad fa-3x course-icon"></i>
+                <h2>Game Development</h2>
+                <p>Learn Unity & C# to create 2D and 3D games from scratch, including publishing.</p>
+                <p class="price">₹7999</p>
+                <a href="register.html" class="btn">Buy Now</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 MyCourses. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

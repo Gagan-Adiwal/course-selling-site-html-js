@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyCourses - Learn Online</title>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">MyCourses</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <a href="register.html" class="btn">Register</a>
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        </nav>
+    </header>
+
+    <!-- Hero Tutor -->
+    <section class="hero-tutor">
+        <div class="hero-tutor-container">
+            <!-- Text Content -->
+            <div class="hero-tutor-text">
+                <h1>Meet Our Expert Tutor</h1>
+                <p>Angela Yu's is a friendly and approachable tutor who makes learning fun and easy. He guides students
+                    step-by-step to master web and app development, ensuring everyone gains confidence and skills
+                    quickly.</p>
+                <a href="register.html" class="btn">Join His Class</a>
+            </div>
+            <!-- Tutor Image -->
+            <div class="hero-tutor-image">
+                <img src="images/angelayu.jpeg" alt="Tutor John Doe">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Featured Courses -->
+    <section class="courses">
+        <h2>Featured Courses</h2>
+        <div class="course-grid">
+            <div class="course-card">
+                <i class="fas fa-laptop-code fa-3x"></i>
+                <h3>Web Development</h3>
+                <p>Learn HTML, CSS, JavaScript & React in this complete course.</p>
+            </div>
+            <div class="course-card">
+                <i class="fas fa-mobile-alt fa-3x"></i>
+                <h3>App Development</h3>
+                <p>Create Android apps using Java & XML from scratch.</p>
+            </div>
+            <div class="course-card">
+                <i class="fas fa-database fa-3x"></i>
+                <h3>Data Science</h3>
+                <p>Master Python, Machine Learning, and AI projects.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tutors Section -->
+    <section class="tutors">
+        <h2>Meet Our Tutors</h2>
+        <div class="course-grid">
+            <div class="tutor-card">
+                <img src="images/smith.jpg" alt="Tutor 1">
+                <h3>Michael</h3>
+                <p>Expert in Web & App Development with 10+ years of experience.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="tutor-card">
+                <img src="images/jannypng.png" alt="Tutor 2">
+                <h3>Janny</h3>
+                <p>Data Scientist & AI Specialist, teaching real-world projects.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="tutor-card">
+                <img src="images/rag.jpg" alt="Tutor 3">
+                <h3>Ragnesh</h3>
+                <p>Full-Stack Developer guiding students step-by-step.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+        <h2>Start Your Learning Journey Today</h2>
+        <a href="courses.html" class="btn">Join Now</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 MyCourses. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
